@@ -18,8 +18,4 @@ class App < Sinatra::Base
     erb :html
   end
 
-  get '/html' do
-    erb :html
-  end
-
 end
